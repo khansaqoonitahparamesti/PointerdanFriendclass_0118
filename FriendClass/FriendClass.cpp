@@ -16,3 +16,7 @@ public:
 	friend class siswa;
 };
 
+class siswa {
+
+};
+
