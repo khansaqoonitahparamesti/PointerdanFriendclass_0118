@@ -5,4 +5,10 @@
 #include <string>
 using namespace std;
 
-class mahasiswa
+class mahasiswa 
+{
+private: 
+	string name;
+public:
+	friend void setNama(mahasiswa& a, string);
+};
