@@ -8,7 +8,12 @@ using namespace std;
 class mahasiswa 
 {
 private: 
-	string name;
+	string nama;
 public:
 	friend void setNama(mahasiswa& a, string);
 };
+
+void setNama(mahasiswa& a,string pNama)
+{
+	a.nama = pNama;
+}
